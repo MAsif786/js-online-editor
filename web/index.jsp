@@ -25,17 +25,17 @@ See the output <a href="output.jsp" target="_blank">here</a>
     <div id="left-pane">
         <div id="html-editor">
             <label for="html-input" class="maximizable">HTML:</label>
-            <textarea id="html-input">${sessionScope["HtmlInput"]}</textarea>
+            <textarea id="html-input" class="editor-area">${sessionScope["HtmlInput"]}</textarea>
         </div>
     </div>
     <div id="right-pane">
         <div id="javascript-editor">
             <label for="javascript-input" class="maximizable">Javascript:</label>
-            <textarea id="javascript-input">${sessionScope["JavascriptInput"]}</textarea>
+            <textarea id="javascript-input" class="editor-area">${sessionScope["JavascriptInput"]}</textarea>
         </div>
         <div id="css-editor">
             <label for="css-input" class="maximizable">CSS:</label>
-            <textarea id="css-input">${sessionScope["CssInput"]}</textarea>
+            <textarea id="css-input" class="editor-area">${sessionScope["CssInput"]}</textarea>
         </div>
     </div>
 </div>
