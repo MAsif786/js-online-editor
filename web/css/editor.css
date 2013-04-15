@@ -1,0 +1,39 @@
+.CodeMirror {
+    border-top: 1px solid black;
+}
+.CodeMirror-activeline-background {
+    background: #e8f2ff !important;
+}
+
+.maximizable {
+    cursor: hand;
+}
+
+#left-pane {
+    float: left;
+    height: 100%;
+    width: 70%;
+    min-width: 400px;
+}
+
+#right-pane {
+    float: right;
+    height: 100%;
+    width: 30%;
+    min-width: 200px;
+}
+
+#javascript-input {
+    border: thin solid black !important;
+    height: 100%
+}
+
+#css-input {
+    border: thin solid black !important;
+    height: 100%
+}
+
+#html-input {
+    border: thin solid black !important;
+    height: 100%
+}

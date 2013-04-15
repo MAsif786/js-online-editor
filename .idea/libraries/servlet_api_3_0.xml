@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="servlet-api-3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/jetty-distribution-9.0.1.v20130408/jetty-distribution-9.0.1.v20130408/lib/servlet-api-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
