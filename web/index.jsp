@@ -15,6 +15,8 @@
     <script type="text/javascript" src="js/codemirror/addon/closebrackets.js"></script>
     <script type="text/javascript" src="js/codemirror/addon/active-line.js"></script>
     <script type="text/javascript" src="js/codemirror/addon/placeholder.js"></script>
+    <script type="text/javascript" src="js/codemirror/addon/show-hint.js"></script>
+    <script type="text/javascript" src="js/codemirror/addon/javascript-hint.js"></script>
     <script type="text/javascript" src="js/jquery.notify.js"></script>
     <script type="text/javascript" src="js/mousetrap.js"></script>
     <script type="text/javascript" src="js/jquery.simplemodal.js"></script>
@@ -36,6 +38,7 @@
     <link href="css/theme/lesser-dark.css" type="text/css" rel="stylesheet"/>
     <link href="css/notify.css" type="text/css" rel="stylesheet"/>
     <link href="css/basic.css" type="text/css" rel="stylesheet"/>
+    <link href="css/show-hint.css" type="text/css" rel="stylesheet"/>
 
     <!-- Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>

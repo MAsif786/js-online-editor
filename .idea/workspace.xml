@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db89f652-2fe8-4208-8b32-46d84986695c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/codemirror/addon/placeholder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/editor.css" afterPath="$PROJECT_DIR$/web/css/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/codemirror/addon/javascript-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/codemirror/addon/show-hint.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/editor.js" afterPath="$PROJECT_DIR$/web/js/editor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,12 +15,12 @@
     <file path="/File Header.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953689217" ignored="false" />
     <file path="/Catch Statement Body.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953696970" ignored="false" />
     <file path="/Dynamic Method Body.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953702884" ignored="false" />
-    <file path="/index.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366373053362" ignored="false" />
+    <file path="/index.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366373982272" ignored="false" />
     <file path="/HomeServlet.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365963640959" ignored="false" />
     <file path="/web.xml" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365963737938" ignored="false" />
     <file path="/output.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366013517009" ignored="false" />
     <file path="/editor.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366372165988" ignored="false" />
-    <file path="/editor.js" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366371845105" ignored="false" />
+    <file path="/editor.js" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366374246311" ignored="false" />
     <file path="/Dummy.txt" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366361126281" ignored="false" />
     <file path="/a.dummy" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366361998052" ignored="false" />
     <file path="/lesser-dark.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366364974329" ignored="false" />
@@ -83,24 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="21" selection-start="477" selection-end="477" vertical-scroll-proportion="-0.68">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="output.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/output.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,19 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="editor.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.3726813">
+            <state line="40" column="33" selection-start="2420" selection-end="2420" vertical-scroll-proportion="-18.884615">
               <folding />
             </state>
           </provider>
@@ -137,20 +120,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neat.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/theme/neat.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="editor.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/editor.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1366373705286" expanded="true" signature="24:57" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,8 +184,8 @@
         <option value="$PROJECT_DIR$/web/output.jsp" />
         <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java" />
         <option value="$PROJECT_DIR$/web/css/theme/lesser-dark.css" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/css/editor.css" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/js/editor.js" />
       </list>
     </option>
@@ -395,6 +371,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xconf-online-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xconf-online-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -457,8 +451,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js\codemirror\addon" />
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\css" />
+      <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js\codemirror\addon" />
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js\codemirror\mode" />
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js" />
     </key>
@@ -885,21 +879,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/codemirror/mode/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="240" selection-end="240" vertical-scroll-proportion="0.13731825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/codemirror/mode/css.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/codemirror/addon/matchbrackets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.41195476" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/codemirror/mode/xml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -966,21 +945,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/editor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1366373705286" expanded="true" signature="24:57" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/editor.js">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+        <state line="11" column="21" selection-start="477" selection-end="477" vertical-scroll-proportion="-0.68">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/codemirror/addon/javascript-hint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.3726813">
+        <state line="40" column="33" selection-start="2420" selection-end="2420" vertical-scroll-proportion="-18.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -1,10 +1,14 @@
 $(function () {
+    CodeMirror.commands.autocomplete = function(cm) {
+        CodeMirror.showHint(cm, CodeMirror.javascriptHint);
+    }
     window.javascriptEditor = CodeMirror.fromTextArea(document.getElementById("javascript-input"),
         {
             mode: "javascript",
             lineNumbers: true,
             matchBrackets: true,
             autoCloseBrackets: true,
+            extraKeys: {"Ctrl-Space": "autocomplete"},
             styleActiveLine: true,
             theme: "lesser-dark"
         });
