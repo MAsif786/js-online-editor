@@ -6,7 +6,7 @@ $(function () {
             matchBrackets: true,
             autoCloseBrackets: true,
             styleActiveLine: true,
-            theme: "erlang-dark"
+            theme: "lesser-dark"
         });
     window.cssEditor = CodeMirror.fromTextArea(document.getElementById("css-input"),
         {
@@ -15,7 +15,7 @@ $(function () {
             matchBrackets: true,
             autoCloseBrackets: true,
             styleActiveLine: true,
-            theme: "erlang-dark"
+            theme: "lesser-dark"
         });
     window.htmlEditor = CodeMirror.fromTextArea(document.getElementById("html-input"),
         {
@@ -24,7 +24,7 @@ $(function () {
             matchBrackets: true,
             autoCloseBrackets: true,
             styleActiveLine: true,
-            theme: "erlang-dark"
+            theme: "lesser-dark"
         });
 
     var saveCode = function (successCallback) {
@@ -49,6 +49,21 @@ $(function () {
         saveCode(function () {
 
         });
+    });
+
+    Mousetrap.bind(["command+k", "ctrl+k"], function () {
+        cssEditor.focus();
+        return false;
+    });
+
+    Mousetrap.bind(["command+h", "ctrl+h"], function () {
+        htmlEditor.focus();
+        return false;
+    });
+
+    Mousetrap.bind(["command+j", "ctrl+j"], function () {
+        javascriptEditor.focus();
+        return false;
     });
 
 });

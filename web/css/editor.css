@@ -1,3 +1,13 @@
+body {
+    background-color: #262626;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
 #notifications {
     font-family: 'Noto Sans', sans-serif !important;
 }

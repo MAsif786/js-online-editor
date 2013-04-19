@@ -15,10 +15,10 @@
     <script type="text/javascript" src="js/codemirror/addon/closebrackets.js"></script>
     <script type="text/javascript" src="js/codemirror/addon/active-line.js"></script>
     <script type="text/javascript" src="js/jquery.notify.js"></script>
-    <link href="css/codemirror.css" type="text/css" rel="stylesheet"/>
-    <link href="css/editor.css" type="text/css" rel="stylesheet"/>
-    <link href="css/theme/erlang-dark.css" type="text/css" rel="stylesheet"/>
-    <link href="css/notify.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/mousetrap.js"></script>
+    <script type="text/javascript" src="js/editor.js"></script>
+
+    <!-- image preloading -->
     <script type="text/javascript">
         (function preloadImages() {
             var images = ["images/dialog-warning.png", "images/dialog-error.png", "images/dialog-information.png"];
@@ -27,7 +27,12 @@
             }
         })();
     </script>
-    <script type="text/javascript" src="js/editor.js"></script>
+
+    <!-- stylesheets -->
+    <link href="css/codemirror.css" type="text/css" rel="stylesheet"/>
+    <link href="css/editor.css" type="text/css" rel="stylesheet"/>
+    <link href="css/theme/lesser-dark.css" type="text/css" rel="stylesheet"/>
+    <link href="css/notify.css" type="text/css" rel="stylesheet"/>
 
     <!-- Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
