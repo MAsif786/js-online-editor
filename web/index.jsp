@@ -34,9 +34,10 @@
 
     <!-- stylesheets -->
     <link href="css/codemirror.css" type="text/css" rel="stylesheet"/>
+    <link href="css/jquery-ui.css" type="text/css" rel="stylesheet"/>
     <link href="css/editor.css" type="text/css" rel="stylesheet"/>
     <link href="css/theme/lesser-dark.css" type="text/css" rel="stylesheet"/>
-    <link href="css/notify.css" type="text/css" rel="stylesheet"/>
+    <link href="css/ui.notify.css" type="text/css" rel="stylesheet"/>
     <link href="css/basic.css" type="text/css" rel="stylesheet"/>
     <link href="css/show-hint.css" type="text/css" rel="stylesheet"/>
 
@@ -81,6 +82,7 @@ See the output <a href="output.jsp" target="_blank">here</a>
     When you're already inside the editor, press Esc and then use these shortcuts, we were too lazy to add one more
     event listener :)
 </div>
+<%@include file="notification-templates.html"%>
 <div>
     <div id="html-editor">
         <textarea id="html-input" placeholder="HTML Markup" class="editor-area">${sessionScope["HtmlInput"]}</textarea>

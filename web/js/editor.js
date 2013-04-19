@@ -6,6 +6,8 @@ $(function () {
         }
     };
 
+    $("#template-container").notify();
+
     CodeMirror.commands.autocomplete = function(cm) {
         CodeMirror.showHint(cm, CodeMirror.javascriptHint);
     }
@@ -54,7 +56,11 @@ $(function () {
 
     var saveWithNotification = function () {
         saveCode(function () {
-            $.notify({text: "Checkout the output page for changes", title: "Saved!", icon: "images/dialog-information.png"});
+            $("#template-container").notify("create", "basic-template", {
+                title: 'Saved!',
+                text: 'Checkout the output page for changes.',
+                icon: 'images/dialog-information.png'
+            });
         });
     };
 

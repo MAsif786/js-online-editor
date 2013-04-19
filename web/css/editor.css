@@ -18,7 +18,16 @@ a {
 
 .editor-area {
     border: thin solid black !important;
-    position:absolute;
+    position: absolute;
+}
+
+.notification-image-holder {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#template-container {
+    z-index: 9999;
 }
 
 #shortcuts-help-dialog {
@@ -34,6 +43,7 @@ a {
     width: 70%;
     min-width: 400px;
 }
+
 #right-pane {
     float: right;
     width: 30%;
