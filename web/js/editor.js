@@ -39,10 +39,14 @@ $(function () {
         }).done(successCallback);
     };
 
-    $("#submit-code").click(function () {
+    var saveWithNotification = function () {
         saveCode(function () {
             $.notify({text: "Checkout the output page for changes", title: "Saved!", icon: "images/dialog-information.png"});
         });
+    };
+
+    $("#submit-code").click(function () {
+        saveWithNotification();
     });
 
     $("#share-code").click(function () {
@@ -63,6 +67,16 @@ $(function () {
 
     Mousetrap.bind(["command+j", "ctrl+j"], function () {
         javascriptEditor.focus();
+        return false;
+    });
+
+    Mousetrap.bind(["command+s", "ctrl+s"], function () {
+        saveWithNotification();
+        return false;
+    });
+
+    Mousetrap.bind("?", function () {
+        $("#shortcuts-help-dialog").modal();
         return false;
     });
 

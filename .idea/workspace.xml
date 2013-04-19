@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db89f652-2fe8-4208-8b32-46d84986695c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java" />
-      <change type="MOVED" beforePath="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\src\com\xconf\code\editor\HomeServlet.java" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/editor.css" afterPath="$PROJECT_DIR$/web/css/editor.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/editor.js" afterPath="$PROJECT_DIR$/web/js/editor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/theme/lesser-dark.css" afterPath="$PROJECT_DIR$/web/css/theme/lesser-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xconf-online-editor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,12 +12,12 @@
     <file path="/File Header.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953689217" ignored="false" />
     <file path="/Catch Statement Body.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953696970" ignored="false" />
     <file path="/Dynamic Method Body.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953702884" ignored="false" />
-    <file path="/index.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366365372726" ignored="false" />
+    <file path="/index.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366371723876" ignored="false" />
     <file path="/HomeServlet.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365963640959" ignored="false" />
     <file path="/web.xml" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365963737938" ignored="false" />
     <file path="/output.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366013517009" ignored="false" />
-    <file path="/editor.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366364724252" ignored="false" />
-    <file path="/editor.js" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366365451260" ignored="false" />
+    <file path="/editor.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366372165988" ignored="false" />
+    <file path="/editor.js" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366371845105" ignored="false" />
     <file path="/Dummy.txt" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366361126281" ignored="false" />
     <file path="/a.dummy" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366361998052" ignored="false" />
     <file path="/lesser-dark.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366364974329" ignored="false" />
@@ -113,19 +108,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="788" selection-end="788" vertical-scroll-proportion="0.6042003">
+            <state line="77" column="3" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="55" selection-start="1291" selection-end="1291" vertical-scroll-proportion="-6.576923">
+            <state line="92" column="7" selection-start="3984" selection-end="3984" vertical-scroll-proportion="0.875153">
               <folding />
             </state>
           </provider>
@@ -143,7 +138,7 @@
       <file leaf-file-name="editor.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/editor.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,10 +196,10 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/output.jsp" />
         <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java" />
-        <option value="$PROJECT_DIR$/web/css/editor.css" />
         <option value="$PROJECT_DIR$/web/css/theme/lesser-dark.css" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/js/editor.js" />
+        <option value="$PROJECT_DIR$/web/css/editor.css" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -737,7 +732,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.74223244" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25776756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25776756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -884,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/editor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/theme/lesser-dark.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="51" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
@@ -898,16 +886,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/css/editor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="1291" selection-end="1291" vertical-scroll-proportion="-6.576923">
+        <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="788" selection-end="788" vertical-scroll-proportion="0.6042003">
+        <state line="77" column="3" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="7" selection-start="3984" selection-end="3984" vertical-scroll-proportion="0.875153">
           <folding />
         </state>
       </provider>
