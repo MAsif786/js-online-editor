@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>com.xconf.code.editor.HomeServlet</servlet-class>
+        <servlet-class>com.xconf.code.editor.servlets.HomeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>

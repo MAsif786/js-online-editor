@@ -1,4 +1,4 @@
-package com.xconf.code.editor;
+package com.xconf.code.editor.servlets;
 
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
