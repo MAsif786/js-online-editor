@@ -14,6 +14,7 @@
     <script type="text/javascript" src="js/codemirror/addon/closetag.js"></script>
     <script type="text/javascript" src="js/codemirror/addon/closebrackets.js"></script>
     <script type="text/javascript" src="js/codemirror/addon/active-line.js"></script>
+    <script type="text/javascript" src="js/codemirror/addon/placeholder.js"></script>
     <script type="text/javascript" src="js/jquery.notify.js"></script>
     <script type="text/javascript" src="js/mousetrap.js"></script>
     <script type="text/javascript" src="js/jquery.simplemodal.js"></script>
@@ -73,20 +74,19 @@ See the output <a href="output.jsp" target="_blank">here</a>
             <td>Show the help dialog</td>
         </tr>
     </table>
-    When you're already inside the editor, press Esc and then use these shortcuts, we were too lazy to add one more event listener :)
+    When you're already inside the editor, press Esc and then use these shortcuts, we were too lazy to add one more
+    event listener :)
 </div>
 <div>
     <div id="html-editor">
-        <label for="html-input" class="maximizable">HTML:</label>
-        <textarea id="html-input" class="editor-area">${sessionScope["HtmlInput"]}</textarea>
+        <textarea id="html-input" placeholder="HTML Markup" class="editor-area">${sessionScope["HtmlInput"]}</textarea>
     </div>
     <div id="javascript-editor">
-        <label for="javascript-input" class="maximizable">Javascript:</label>
-        <textarea id="javascript-input" class="editor-area">${sessionScope["JavascriptInput"]}</textarea>
+        <textarea id="javascript-input" placeholder="Javascript Code"
+                  class="editor-area">${sessionScope["JavascriptInput"]}</textarea>
     </div>
     <div id="css-editor">
-        <label for="css-input" class="maximizable">CSS:</label>
-        <textarea id="css-input" class="editor-area">${sessionScope["CssInput"]}</textarea>
+        <textarea id="css-input" placeholder="CSS Styles" class="editor-area">${sessionScope["CssInput"]}</textarea>
     </div>
 </div>
 </body>

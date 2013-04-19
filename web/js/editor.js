@@ -21,8 +21,7 @@ $(function () {
         {
             mode: "htmlmixed",
             lineNumbers: true,
-            matchBrackets: true,
-            autoCloseBrackets: true,
+            autoCloseTags: true,
             styleActiveLine: true,
             theme: "lesser-dark"
         });
