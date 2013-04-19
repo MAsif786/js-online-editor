@@ -49,6 +49,7 @@
 See the output <a href="output.jsp" target="_blank">here</a>
 <button id="submit-code">Save</button>
 <button id="share-code">Share</button>
+<div id="help-icon">?</div>
 <div id="shortcuts-help-dialog">
     <h1>Keyboard shortcuts</h1>
     <table>

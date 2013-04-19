@@ -1,4 +1,11 @@
 $(function () {
+    var editorKeyPressListener = function (cm, event) {
+        //ESC keypress
+        if (event.keyCode == 27) {
+            $("#submit-code").focus();
+        }
+    };
+
     CodeMirror.commands.autocomplete = function(cm) {
         CodeMirror.showHint(cm, CodeMirror.javascriptHint);
     }
@@ -10,7 +17,8 @@ $(function () {
             autoCloseBrackets: true,
             extraKeys: {"Ctrl-Space": "autocomplete"},
             styleActiveLine: true,
-            theme: "lesser-dark"
+            theme: "lesser-dark",
+            onKeyEvent: editorKeyPressListener
         });
     window.cssEditor = CodeMirror.fromTextArea(document.getElementById("css-input"),
         {
@@ -19,7 +27,8 @@ $(function () {
             matchBrackets: true,
             autoCloseBrackets: true,
             styleActiveLine: true,
-            theme: "lesser-dark"
+            theme: "lesser-dark",
+            onKeyEvent: editorKeyPressListener
         });
     window.htmlEditor = CodeMirror.fromTextArea(document.getElementById("html-input"),
         {
@@ -27,7 +36,8 @@ $(function () {
             lineNumbers: true,
             autoCloseTags: true,
             styleActiveLine: true,
-            theme: "lesser-dark"
+            theme: "lesser-dark",
+            onKeyEvent: editorKeyPressListener
         });
 
     var saveCode = function (successCallback) {
@@ -56,6 +66,10 @@ $(function () {
         saveCode(function () {
 
         });
+    });
+
+    $("#help-icon").click(function () {
+        $("#shortcuts-help-dialog").modal();
     });
 
     Mousetrap.bind(["command+k", "ctrl+k"], function () {
