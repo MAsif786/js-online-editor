@@ -5,7 +5,8 @@ $(function () {
             lineNumbers: true,
             matchBrackets: true,
             autoCloseBrackets: true,
-            styleActiveLine: true
+            styleActiveLine: true,
+            theme: "erlang-dark"
         });
     window.cssEditor = CodeMirror.fromTextArea(document.getElementById("css-input"),
         {
@@ -13,7 +14,8 @@ $(function () {
             lineNumbers: true,
             matchBrackets: true,
             autoCloseBrackets: true,
-            styleActiveLine: true
+            styleActiveLine: true,
+            theme: "erlang-dark"
         });
     window.htmlEditor = CodeMirror.fromTextArea(document.getElementById("html-input"),
         {
@@ -21,16 +23,11 @@ $(function () {
             lineNumbers: true,
             matchBrackets: true,
             autoCloseBrackets: true,
-            styleActiveLine: true
+            styleActiveLine: true,
+            theme: "erlang-dark"
         });
 
-    $(".maximizable").click(function (event) {
-        var elementToBeMoved = event.currentTarget;
-        var parentElement = elementToBeMoved.parentElement;
-        var leftPaneElement = document.getElementById("")
-    });
-
-    $("#submit-code").click(function () {
+    var saveCode = function (successCallback) {
         $.ajax({
             url: "savecode",
             type: "POST",
@@ -39,8 +36,19 @@ $(function () {
                 javascript: javascriptEditor.getValue(),
                 html: htmlEditor.getValue()
             }
-        }).done(function () {
-                alert("Refresh the results page to see the output");
-            });
+        }).done(successCallback);
+    };
+
+    $("#submit-code").click(function () {
+        saveCode(function () {
+            $.notify({text: "Checkout the output page for changes", title: "Saved!", icon: "images/dialog-information.png"});
+        });
     });
+
+    $("#share-code").click(function () {
+        saveCode(function () {
+
+        });
+    });
+
 });

@@ -1,8 +1,13 @@
+#notifications {
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+* {
+    font-family: 'Noto Serif', serif;
+}
+
 .CodeMirror {
     border-top: 1px solid black;
-}
-.CodeMirror-activeline-background {
-    background: #e8f2ff !important;
 }
 
 .maximizable {
