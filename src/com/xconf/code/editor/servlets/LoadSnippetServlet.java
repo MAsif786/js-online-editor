@@ -24,6 +24,6 @@ public class LoadSnippetServlet extends HttpServlet {
             } catch (SQLException ex) {
             }
         }
-        response.sendRedirect("/editor");
+        response.sendRedirect(getServletContext().getContextPath());
     }
 }

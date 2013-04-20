@@ -70,7 +70,18 @@ $(function () {
 
     $("#share-code").click(function () {
         saveCode(function () {
-
+            $.ajax( {
+                url: "sharecode",
+                type: "POST",
+                success: function () {
+                    console.log("Success");
+                    console.log(arguments);
+                },
+                error: function () {
+                    console.log("Error");
+                    console.log(arguments);
+                }
+            });
         });
     });
 

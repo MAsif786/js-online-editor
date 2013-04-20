@@ -6,7 +6,7 @@ public class DataAccess {
 
     private static final String CONNECTION_STRING = "jdbc:microsoft:sqlserver://localhost:1433;databaseName=xconf";
     private static final String USERNAME = "sa";
-    private static final String PASSWORD = "!abcd1234";
+    private static final String PASSWORD = "!4321abcd";
 
     public DataAccess() throws SQLException {
         try {

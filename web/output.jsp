@@ -6,6 +6,29 @@
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/angular.js"></script>
     <style type="text/css">
+        .trapezium {
+            -webkit-transform:perspective(200px) rotateX(45deg);
+            -moz-transform: perspective(200px) rotateX(45deg);
+            -o-transform: perspective(200px) rotateX(45deg);
+            transform: perspective(200px) rotateX(45deg);
+            width:100px;
+            height:100px;
+        }
+        .rectangle {
+            width:150px;
+            height:100px;
+        }
+        .square {
+            width:100px;
+            height:100px;
+        }
+        .shape {
+            margin: auto;
+            position: relative;
+            top: 20%;
+        }
+    </style>
+    <style type="text/css">
         ${sessionScope["CssInput"]}
     </style>
 </head>

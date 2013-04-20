@@ -29,6 +29,6 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ShareServlet</servlet-name>
-        <url-pattern>/share</url-pattern>
+        <url-pattern>/sharecode</url-pattern>
     </servlet-mapping>
 </web-app>
