@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db89f652-2fe8-4208-8b32-46d84986695c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/notification-templates.html" />
-      <change type="DELETED" beforePath="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\css\notify.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/editor.css" afterPath="$PROJECT_DIR$/web/css/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/editor.js" afterPath="$PROJECT_DIR$/web/js/editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.notify.js" afterPath="$PROJECT_DIR$/web/js/jquery.notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/data/CodeSnippet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/LoadSnippetServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/ShareServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc.xml" />
+      <change type="MOVED" beforePath="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\src\com\xconf\code\editor\servlets\HomeServlet.java" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/SaveServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java" afterPath="$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/editor.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/editor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xconf-online-editor.iml" afterPath="$PROJECT_DIR$/xconf-online-editor.iml" />
     </list>
     <ignored path="xconf-online-editor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,13 +21,19 @@
     <file path="/Dynamic Method Body.txt.ft" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365953702884" ignored="false" />
     <file path="/index.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366386322473" ignored="false" />
     <file path="/HomeServlet.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365963640959" ignored="false" />
-    <file path="/web.xml" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1365963737938" ignored="false" />
+    <file path="/web.xml" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366420665820" ignored="false" />
     <file path="/output.jsp" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366013517009" ignored="false" />
     <file path="/editor.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366386704504" ignored="false" />
     <file path="/editor.js" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366385668579" ignored="false" />
-    <file path="/Dummy.txt" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366382884066" ignored="false" />
+    <file path="/Dummy.txt" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366418464162" ignored="false" />
     <file path="/a.dummy" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366361998052" ignored="false" />
     <file path="/lesser-dark.css" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366364974329" ignored="false" />
+    <file path="/DataAccess.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366419686107" ignored="false" />
+    <file path="/fragment.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366380342292" ignored="false" />
+    <file path="/CodeSnippet.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366380392243" ignored="false" />
+    <file path="/a.txt" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366420386618" ignored="false" />
+    <file path="/ShareServlet.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366420346396" ignored="false" />
+    <file path="/LoadSnippetServlet.java" changelist="db89f652-2fe8-4208-8b32-46d84986695c" time="1366420620663" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +97,7 @@
       <file leaf-file-name="output.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/output.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.65384614">
+            <state line="17" column="7" selection-start="561" selection-end="561" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -97,7 +106,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="50" selection-start="2159" selection-end="2159" vertical-scroll-proportion="-16.307692">
+            <state line="36" column="50" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,45 +115,54 @@
       <file leaf-file-name="notification-templates.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/notification-templates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="27" vertical-scroll-proportion="-0.0">
+            <state line="0" column="9" selection-start="9" selection-end="27" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/css/editor.css">
+      <file leaf-file-name="SaveServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/SaveServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="17" selection-start="400" selection-end="400" vertical-scroll-proportion="0.7951613">
+            <state line="11" column="84" selection-start="442" selection-end="662" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java">
+      <file leaf-file-name="ShareServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/ShareServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+            <state line="33" column="29" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataAccess.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java">
+      <file leaf-file-name="LoadSnippetServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/LoadSnippetServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesser-dark.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/theme/lesser-dark.css">
+      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
+            <state line="32" column="22" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.94086957">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -157,10 +175,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/editor.js">
+      <file leaf-file-name="DataAccess.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="22" selection-start="1987" selection-end="2025" vertical-scroll-proportion="0.0">
+            <state line="13" column="73" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/editor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="17" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,15 +215,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/xconf/code/editor/HomeServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/output.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java" />
         <option value="$PROJECT_DIR$/web/css/theme/lesser-dark.css" />
         <option value="$PROJECT_DIR$/web/notification-templates.html" />
         <option value="$PROJECT_DIR$/web/js/jquery.notify.js" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/js/editor.js" />
         <option value="$PROJECT_DIR$/web/css/editor.css" />
+        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/data/CodeSnippet.java" />
+        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java" />
+        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/SaveServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/ShareServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/xconf/code/editor/servlets/LoadSnippetServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -268,6 +300,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,7 +351,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,7 +401,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -388,11 +420,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -400,6 +432,9 @@
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js\codemirror\addon" />
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js\codemirror\mode" />
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xconf.code.editor.data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chandrasekar\IdeaProjects\xconf-online-editor\web\js\codemirror\addon" />
@@ -422,6 +457,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -452,17 +500,19 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Local">
@@ -481,21 +531,6 @@
       </server-settings>
       <predefined_log_file id="Jetty" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -732,7 +767,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -743,17 +777,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.4027618" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.2612198" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.7433832" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2566168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.4821634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25546604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -824,105 +859,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/codemirror/mode/htmlmixed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/codemirror/codemirror.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3355" column="51" selection-start="133356" selection-end="133356" vertical-scroll-proportion="0.028052805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/theme/neat.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/output.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1208" column="12" selection-start="30822" selection-end="30822" vertical-scroll-proportion="0.9438944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/HomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/theme/lesser-dark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/codemirror/addon/placeholder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="477" selection-end="477" vertical-scroll-proportion="-0.68">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/codemirror/addon/javascript-hint.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/css/editor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="50" selection-start="2159" selection-end="2159" vertical-scroll-proportion="-16.307692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.notify.js">
+    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/data/CodeSnippet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="8" column="106" selection-start="301" selection-end="301" vertical-scroll-proportion="0.2197092">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/editor.js">
+    <entry file="file://$PROJECT_DIR$/web/output.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="22" selection-start="1987" selection-end="2025" vertical-scroll-proportion="0.0">
+        <state line="17" column="7" selection-start="561" selection-end="561" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="50" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -936,9 +901,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/editor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="17" selection-start="400" selection-end="400" vertical-scroll-proportion="0.7951613">
+        <state line="29" column="17" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/data/DataAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="73" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="javaeeDummy://JavaeeElement:/1eeef3a5/ShareServlet/xconf-online-editor/web/Web/Servlet">
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.ServletEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="22" selection-start="1987" selection-end="2025" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="javaeeDummy://JavaeeElement:/1eeef3a5/LoadSnippetServlet/xconf-online-editor/web/Web/Servlet">
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.ServletEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/ShareServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="29" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/SaveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="84" selection-start="442" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xconf/code/editor/servlets/LoadSnippetServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/theme/lesser-dark.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="51" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="22" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.94086957">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
   </component>
@@ -1021,7 +1054,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>servlet-api-3.0</last-edited>
+          <last-edited>sqljdbc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

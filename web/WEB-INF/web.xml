@@ -7,10 +7,28 @@
 
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>com.xconf.code.editor.servlets.HomeServlet</servlet-class>
+        <servlet-class>com.xconf.code.editor.servlets.SaveServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>ShareServlet</display-name>
+        <servlet-name>ShareServlet</servlet-name>
+        <servlet-class>com.xconf.code.editor.servlets.ShareServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>LoadSnippetServlet</display-name>
+        <servlet-name>LoadSnippetServlet</servlet-name>
+        <servlet-class>com.xconf.code.editor.servlets.LoadSnippetServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern>/savecode</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoadSnippetServlet</servlet-name>
+        <url-pattern>/loadsnippet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShareServlet</servlet-name>
+        <url-pattern>/share</url-pattern>
     </servlet-mapping>
 </web-app>

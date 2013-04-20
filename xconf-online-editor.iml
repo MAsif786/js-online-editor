@@ -20,6 +20,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="servlet-api-3.0" level="project" />
+    <orderEntry type="library" name="sqljdbc" level="project" />
   </component>
 </module>
 

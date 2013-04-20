@@ -6,6 +6,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="xconf-online-editor" />
+          <element id="library" level="project" name="sqljdbc" />
         </element>
       </element>
     </root>
